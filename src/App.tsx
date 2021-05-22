@@ -19,6 +19,8 @@ const Footer: React.FC = () => {
     return <div
         className={css`
             display: flex;
+            width: 100%;
+            padding: 5px;
             justify-content: space-between;
         `}
     >
@@ -104,7 +106,7 @@ let App: React.FC<ComponentProps> = () => {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
             min-height: 100vh;
         `}
     >
