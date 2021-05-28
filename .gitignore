@@ -3,6 +3,8 @@ dist
 build
 *.cpp
 
+.snowpack
+
 .eslintcache
 
 .DS_Store

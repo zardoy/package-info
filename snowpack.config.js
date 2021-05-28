@@ -15,6 +15,9 @@ const config = {
         SNOWPACK_PUBLIC_NAME: process.env.npm_package_displayName,
         SNOWPACK_PUBLIC_BUILD_DATE: new Date().toLocaleDateString(),
         SNOWPACK_PUBLIC_GITHUB_REPO: process.env.npm_package_repository_url
+    },
+    packageOptions: {
+        source: process.env.NODE_ENV === "production" ? "remote" : "local"
     }
 };
 
