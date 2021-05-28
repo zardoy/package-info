@@ -80,7 +80,7 @@ const PackageInfoContent: React.FC = () => {
             }
         </div>
         <Typography>
-            Version: {data.version}
+            Version: {data.version} &middot;
             <a href={getPackageJsonUrl(packageName)}>Show package.json</a>
         </Typography>
         {
@@ -119,15 +119,15 @@ let App: React.FC<ComponentProps> = () => {
                 Package Info
                 <sub className={css`
                     color: orange;
-                    font-size: 0.5em;
+                    font-size: 0.4em;
                     font-style: italic;
                 `}>by Zardoy</sub>
             </Typography>
             <SearchField />
+            {foundPackage.foundPackage === null ? <div /> :
+                foundPackage.loading ? <CircularProgress /> : <PackageInfoContent />
+            }
         </div>
-        {foundPackage.foundPackage === null ? <div /> :
-            foundPackage.loading ? <CircularProgress /> : <PackageInfoContent />
-        }
         <Footer />
     </div>;
 };
