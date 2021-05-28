@@ -1,1 +1,2 @@
-export const getPackageJsonUrl = (packageName: string) => `https://cdn.skypack.dev/${packageName}/package.json`
+// skypack has issues with `ts-node` package. and its slow (sometimes)
+export const getPackageJsonUrl = (packageName: string) => `https://cdn.jsdelivr.net/npm/${packageName}/package.json`;

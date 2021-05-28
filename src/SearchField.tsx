@@ -39,8 +39,6 @@ const SearchField: React.FC = () => {
             }
             // use async!!!
             useAppState.setState({ foundPackage: npmPackage, loading: true, data: null });
-            // thank you skypack for the global caching. Speed is amazing
-            // todo-high check version of cached version!!!
             try {
                 const request = await fetch(
                     getPackageJsonUrl(npmPackage)
