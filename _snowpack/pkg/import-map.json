@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@emotion/css": "./@emotion/css.js",
+    "@material-ui/core": "./@material-ui/core.js",
+    "formik": "./formik.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "zustand": "./zustand.js"
+  }
+}
