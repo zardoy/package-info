@@ -1,4 +1,6 @@
 # Package Deps Info
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzardoy%2Fpackage-info.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzardoy%2Fpackage-info?ref=badge_shield)
+
 
 ## Why?
 
@@ -9,3 +11,7 @@ Also, I needed the online version. For CLI usage, you can probably use [npm view
 ---
 
 Please, let me know if you find an alternative.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzardoy%2Fpackage-info.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzardoy%2Fpackage-info?ref=badge_large)
